@@ -10,6 +10,7 @@ function App() {
         onClick={() => null}
         >
         press me
+        no risk no magic
       </motion.button>
     </div>
   );
