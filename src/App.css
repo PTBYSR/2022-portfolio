@@ -22,3 +22,25 @@ figure,
 picture {
     margin: 0;
 }
+
+/* set up the body */
+body {
+    line-height: 1.5;
+    min-height: 100vh;
+}
+
+/* make images easier to use */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* make forms easier */
+/* by default these form elements do not inherit font family by default */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
