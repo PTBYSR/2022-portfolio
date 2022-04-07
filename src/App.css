@@ -39,8 +39,21 @@ picture {
     margin: 0;
 }
 
+h1,
+h1,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-weight: 400;
+}
+
 /* set up the body */
 body {
+    font-family: var(--ff-mont);
+    font-size: var(--fs-400);
+    color: var(--clr-secondary);
     line-height: 1.5;
     min-height: 100vh;
 }
@@ -121,3 +134,18 @@ select {
 .text-secondary { color: var(--clr-secondary)};
 .text-accent-pri { color: var(--clr-accent-pri)};
 .text-accent-sec { color: var(--clr-accent-sec)};
+
+/* typography */
+
+.ff-mont { font-family: var(--ff-mont)};
+
+.letter-spacing-1 { letter-spacing: 4.75px;}
+.letter-spacing-2 { letter-spacing: 2.7px;}
+.letter-spacing-3 { letter-spacing: 2.35px;}
+
+.uppercase { text-transform: uppercase; }
+
+
+
+
+
