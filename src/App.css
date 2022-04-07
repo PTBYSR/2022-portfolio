@@ -2,7 +2,15 @@
 :root{
     --clr-primary: #EEDD99;
     --clr-secondary: #2D2F2C;
-    --clr-accent: ;
+    --clr-accent-pri:  ;
+    --clr-accent-sec:  ;
+
+    /* FONT */
+    --ff-mont: ;
+
+    --fw-big: ;
+    --fw-medium: ;
+    --fw-small: ;
 }
 
 
@@ -102,3 +110,14 @@ select {
     white-space: nowrap; /* add line */
     border: 0
 }
+
+
+/* colors */
+
+.bg-primary { background-color: var(--clr-primary)};
+.bg-secondary { background-color: var(--clr-secondary)};
+
+.text-primary { color: var(--clr-primary)};
+.text-secondary { color: var(--clr-secondary)};
+.text-accent-pri { color: var(--clr-accent-pri)};
+.text-accent-sec { color: var(--clr-accent-sec)};
