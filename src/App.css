@@ -1,7 +1,8 @@
 /* Custom properties */
 :root{
-    ---drk-clr: ;
-    ---light-clr: ;
+    --clr-primary: #EEDD99;
+    --clr-secondary: #2D2F2C;
+    --clr-accent: ;
 }
 
 
