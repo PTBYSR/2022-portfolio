@@ -182,13 +182,29 @@ them using inline css */
 .circle {
     display: grid;
     place-items: center;
+    z-index: 1;
     border-radius: 50%;
     border: solid var(--clr-primary);
-    width: 1.183em;
-    height: 1.183em;
+    width: 100px;
+    height: 100px;
 }
 
+.circle::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    background: red;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 500ms linear, transform 500ms ease-in-out
+}
 
+.circle:hover::after,
+.circle:focus::after {
+    transform: scale(1.5);
+}
 
 
 
