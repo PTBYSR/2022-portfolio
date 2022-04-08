@@ -56,7 +56,7 @@ h4,
 h5,
 h6,
 p {
-    font-weight: 400;
+    font-weight: 400; /* remove default */
 }
 
 /* set up the body */
@@ -64,6 +64,7 @@ body {
     font-family: var(--ff-cabin);
     font-size: var(--fs-secondary);
     color: var(--clr-secondary);
+    background: var(--clr-secondary);
     line-height: 1.5;
     min-height: 100vh;
 }
