@@ -12,9 +12,6 @@ function App() {
         press me
         no risk no magic
       </motion.button>
-      <div >
-        <div className="circle bg-secondary ">circle</div>
-      </div>
     </div>
   );
 }
