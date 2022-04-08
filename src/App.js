@@ -13,7 +13,7 @@ function App() {
         no risk no magic
       </motion.button>
       <div >
-        <div className="circle bg-secondary fs-primary">circle</div>
+        <div className="circle bg-secondary ">circle</div>
       </div>
     </div>
   );

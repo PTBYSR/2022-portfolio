@@ -67,7 +67,7 @@ p {
 body {
     font-family: var(--ff-cabin);
     font-size: var(--fs-secondary);
-    color: var(--clr-secondary);
+    color: var(--clr-primary);
     background: var(--clr-secondary);
     line-height: 1.5;
     min-height: 100vh;
@@ -183,10 +183,9 @@ them using inline css */
     display: grid;
     place-items: center;
     border-radius: 50%;
-    padding: 0 2em;
     border: solid var(--clr-primary);
-    width: var(--circle-width, 1.183em);
-    height: var(--circle-width, 1.183rem);
+    width: 1.183em;
+    height: 1.183em;
 }
 
 
