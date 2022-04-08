@@ -5,16 +5,22 @@
     --clr-accent-pri:  ;
     --clr-accent-sec:  ;
 
-    /* FONT */
-    --ff-mont: ;
+    /* FONT-FAMILY*/
+    --ff-mont: "Monserat";
+    --ff-cabin: "Cabin";
 
-    --fw-big: ;
-    --fw-medium: ;
-    --fw-small: ;
+    /* FONT-WEIGHT */
+    --fw-semi-bold: ;
+    --fw-regular: ;
     /* Regular 400 */
     /* Medium 500 */
     /* SemiBold 600 */
     /* Bold 700 */
+
+    /* FONT-SIZES */
+    --fs-heading: 4.4375rem;
+    --fs-primary: 1.375rem;
+    --fs-secondary: 1.125;
 }
 
 
@@ -55,8 +61,8 @@ p {
 
 /* set up the body */
 body {
-    font-family: var(--ff-mont);
-    font-size: var(--fs-400);
+    font-family: var(--ff-cabin);
+    font-size: var(--fs-secondary);
     color: var(--clr-secondary);
     line-height: 1.5;
     min-height: 100vh;
@@ -149,6 +155,8 @@ select {
 
 .uppercase { text-transform: uppercase; }
 
-
+.fs-heading { font-size: var(--fs-heading); }
+.fs-primary { font-size: var(--fs-primary); }
+.fs-secondary { font-size: var(--fs-secondary); }
 
 
