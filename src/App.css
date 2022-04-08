@@ -11,6 +11,10 @@
     --fw-big: ;
     --fw-medium: ;
     --fw-small: ;
+    /* Regular 400 */
+    /* Medium 500 */
+    /* SemiBold 600 */
+    /* Bold 700 */
 }
 
 
@@ -144,7 +148,6 @@ select {
 .letter-spacing-3 { letter-spacing: 2.35px;}
 
 .uppercase { text-transform: uppercase; }
-
 
 
 
