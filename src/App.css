@@ -21,6 +21,10 @@
     --fs-heading: 4.4375rem;
     --fs-primary: 1.375rem;
     --fs-secondary: 1.125;
+
+    /* COMPONENTS */
+    --border-small: ;
+    --border-big: ;
 }
 
 
@@ -111,10 +115,22 @@ select {
 
 .flex {
     display: flex;
+    gap: var(--gap, 1rem)
 }
 
 .grid {
     display: grid;
+    gap: var(--gap, 1rem)
+}
+
+
+/* undefined custom properties
+makes them overidable
+when declaring
+them using inline css */
+.flow > *:where(:not(:last-child)) {
+    margin-top: var(--flow-space, 1rem);
+    outline: 1px solid red;
 }
 
 .container {
@@ -159,5 +175,36 @@ select {
 .fs-heading { font-size: var(--fs-heading); }
 .fs-primary { font-size: var(--fs-primary); }
 .fs-secondary { font-size: var(--fs-secondary); }
+
+
+/* components */
+
+.circle {
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    padding: 0 2em;
+    border: solid var(--clr-primary);
+    width: var(--circle-width, 1.183em);
+    height: var(--circle-width, 1.183rem);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

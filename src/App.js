@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <h1> portfolio </h1>
       <motion.button
         whileHover={{ scale: 1.1 }}
@@ -12,6 +12,9 @@ function App() {
         press me
         no risk no magic
       </motion.button>
+      <div >
+        <div className="circle bg-secondary fs-primary">circle</div>
+      </div>
     </div>
   );
 }
