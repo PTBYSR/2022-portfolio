@@ -206,9 +206,31 @@ them using inline css */
     transform: scale(1.5);
 }
 
+.primary-navigation {
+    --gap: 2rem;
+    --underline-gap: 2rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
+.primary-navigation a {
+    text-decoration: none;
+}
 
+.underline-indicators > * { /* target all the children */
+    padding: var(--underline-gap, 1rem) 0;
+    border-bottom: .2rem solid var(--clr-accent-pri);
+}
 
+.underline-indicators > *:hover,
+.underline-indicators > *:focus {
+    border-color: var(--clr-accent-sec);
+}
+
+.underline-indicators > .active{
+    border-color: var(--clr-accent-sec);
+}
 
 
 
