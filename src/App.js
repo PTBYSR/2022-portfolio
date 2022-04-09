@@ -1,5 +1,7 @@
+import NavBar from './Components/Navbar/Navbar';
 import './App.css';
 import { motion } from "framer-motion";
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
         press me
         no risk no magic
       </motion.button>
+      <NavBar />
     </div>
   );
 }
