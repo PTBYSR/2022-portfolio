@@ -11,6 +11,7 @@ function App() {
   return (
     <div>
       <NavBar />
+      <Hero />
       <motion.button
         whileHover={{ scale: 1.1 }}
         onClick={() => null}

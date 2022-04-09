@@ -1,9 +1,9 @@
 /* Custom properties */
 :root{
-    --clr-primary: #EEDD99;
-    --clr-secondary: #2D2F2C;
-    --clr-accent-pri:  ;
-    --clr-accent-sec:  ;
+    --clr-light: #EEDD99;
+    --clr-dark: #2D2F2C;
+    --clr-accent-light: #FBF4DB ;
+    --clr-accent-dark:  ;
 
     /* FONT-FAMILY*/
     --ff-mont: "Monserat";
@@ -67,8 +67,8 @@ p {
 body {
     font-family: var(--ff-cabin);
     font-size: var(--fs-secondary);
-    color: var(--clr-primary);
-    background: var(--clr-secondary);
+    /* color: var(--clr-primary); */
+    background: var(--clr-dark);
     line-height: 1.5;
     min-height: 100vh;
 }
@@ -154,13 +154,13 @@ them using inline css */
 
 /* colors */
 
-.bg-primary { background-color: var(--clr-primary)};
-.bg-secondary { background-color: var(--clr-secondary)};
+.bg-dark { background-color: var(--clr-dark); }
+.bg-light { background-color: var(--clr-light); }
 
-.text-primary { color: var(--clr-primary)};
-.text-secondary { color: var(--clr-secondary)};
-.text-accent-pri { color: var(--clr-accent-pri)};
-.text-accent-sec { color: var(--clr-accent-sec)};
+.text-light { color: var(--clr-light); }
+.text-dark { color: var(--clr-dark); }
+.text-accent-dark { color: var(--clr-accent-dark); }
+.text-accent-light { color: var(--clr-accent-light); }
 
 /* typography */
 
@@ -222,16 +222,6 @@ them using inline css */
     padding: var(--underline-gap, 1rem) 0;
     border-bottom: .2rem solid var(--clr-accent-pri);
 }
-
-.underline-indicators > *:hover,
-.underline-indicators > *:focus {
-    border-color: var(--clr-accent-sec);
-}
-
-.underline-indicators > .active{
-    border-color: var(--clr-accent-sec);
-}
-
 
 
 
