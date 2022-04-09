@@ -1,4 +1,8 @@
 import NavBar from './Components/Navbar/Navbar';
+import Hero from './Components/Hero/Hero';
+import Work from './Components/Work/Work'
+import About from './Components/About/About'
+import Footer from './Components/Footer/Footer'
 import './App.css';
 import { motion } from "framer-motion";
 
@@ -6,7 +10,7 @@ import { motion } from "framer-motion";
 function App() {
   return (
     <div>
-      <h1> portfolio </h1>
+      <NavBar />
       <motion.button
         whileHover={{ scale: 1.1 }}
         onClick={() => null}
@@ -14,7 +18,10 @@ function App() {
         press me
         no risk no magic
       </motion.button>
-      <NavBar />
+      {/* HERO */}
+      {/* WORK */}
+      {/* ABOUT */}
+      {/* FOOTER */}
     </div>
   );
 }
