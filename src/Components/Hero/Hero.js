@@ -1,10 +1,20 @@
 import React from 'react'
+import { 
+  Landing, 
+  LandingCardOne,
+  LandingCardTwo,
+  LandingCardThree,
+ } from './Hero.element'
 
 function Hero() {
   return (
-    <div>
-        <h1 className="text-secondary">Hero</h1>
-    </div>
+    <>
+      <Landing className='bg-light flex'>
+        <LandingCardOne />
+        <LandingCardTwo />
+        <LandingCardThree />
+      </Landing>
+    </>
   )
 }
 
