@@ -19,6 +19,7 @@ function App() {
         press me
         no risk no magic
       </motion.button>
+      <Work />
       {/* HERO */}
       {/* WORK */}
       {/* ABOUT */}
