@@ -20,8 +20,7 @@ function App() {
         no risk no magic
       </motion.button>
       <Work />
-      {/* WORK */}
-      {/* ABOUT */}
+      <About />
       {/* FOOTER */}
     </div>
   );
