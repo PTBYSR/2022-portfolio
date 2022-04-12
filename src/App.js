@@ -20,7 +20,6 @@ function App() {
         no risk no magic
       </motion.button>
       <Work />
-      {/* HERO */}
       {/* WORK */}
       {/* ABOUT */}
       {/* FOOTER */}
