@@ -16,4 +16,6 @@ export const LandingCardTwo = styled.div`
 export const LandingCardThree = styled.div`
     border: 1px solid black;    
     width: 100%;
+    justify-content: end;
+    align-items: flex-end;
 `;
