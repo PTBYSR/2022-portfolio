@@ -4,6 +4,7 @@ export const Landing = styled.section`
     width: 100%;
     height: 100vh;
     gap: 0rem;
+    margin-top: 30px;
 `;
 export const LandingCardOne = styled.div`
     width: 100%;
@@ -13,8 +14,8 @@ export const LandingCardTwo = styled.div`
 `;
 export const LandingCardThree = styled.div`
     width: 100%;
-    justify-content: end;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: end;
 `;
 export const ArrowDown = styled.div`
     

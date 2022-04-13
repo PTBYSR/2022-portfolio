@@ -223,11 +223,11 @@ them using inline css */
 .primary-navigation a {
     text-decoration: none;
 }
-
-.underline-indicators > * { /* target all the children */
+/* 
+.underline-indicators > * { target all the children 
     padding: var(--underline-gap, 1rem) 0;
     border-bottom: .2rem solid var(--clr-accent-pri);
-}
+} */
 
 
 

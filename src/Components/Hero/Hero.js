@@ -23,7 +23,7 @@ function Hero() {
             <ArrowDown />
         </LandingCardOne>
         <LandingCardTwo />
-        <LandingCardThree className="flex ff-mont fw-semibold fs-heading">
+        <LandingCardThree className="flex">
           <NavBar />
           <div>
             <h1 className="ff-mont fw-semibold fs-heading">PAUL<br/>
