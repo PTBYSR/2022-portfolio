@@ -3,7 +3,7 @@
     --clr-light: #EEDD99;
     --clr-dark: #2D2F2C;
     --clr-accent-light: #FBF4DB ;
-    --clr-accent-dark:  ;
+    --clr-accent-dark:  #0094ce;
 
     /* FONT-FAMILY*/
     --ff-mont: "Montserrat";
@@ -67,7 +67,7 @@ p {
 body {
     font-family: var(--ff-cabin);
     font-size: var(--fs-secondary);
-    /* color: var(--clr-primary); */
+    color: var(--clr-dark);
     background: var(--clr-light);
     line-height: 1.5;
     min-height: 100vh;

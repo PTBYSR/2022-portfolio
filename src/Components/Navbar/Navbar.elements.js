@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
     height: 80px;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     position: relative;
     top: 0;

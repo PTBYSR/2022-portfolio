@@ -6,16 +6,16 @@ export const Landing = styled.section`
     gap: 0rem;
 `;
 export const LandingCardOne = styled.div`
-    border: 1px solid black;    
     width: 100%;
 `;
 export const LandingCardTwo = styled.div`
-    border: 1px solid black;    
     width: 100%;
 `;
 export const LandingCardThree = styled.div`
-    border: 1px solid black;    
     width: 100%;
     justify-content: end;
     align-items: flex-end;
+`;
+export const ArrowDown = styled.div`
+    
 `;

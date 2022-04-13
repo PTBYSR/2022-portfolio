@@ -1,0 +1,11 @@
+<svg id="arrow_long_up" data-name="arrow / long_up" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="222.414" height="206.531" viewBox="0 0 222.414 206.531">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="arrow_long_up_Background_Mask_" data-name="arrow / long_up (Background/Mask)" d="M16.2,206.531H218.463L222.414,0H0Z" fill="#2d2f2c"/>
+    </clipPath>
+  </defs>
+  <path id="arrow_long_up_Background_Mask_2" data-name="arrow / long_up (Background/Mask)" d="M16.2,206.531H218.463L222.414,0H0Z" fill="none"/>
+  <g id="arrow_long_up-2" data-name="arrow / long_up" clip-path="url(#clip-path)">
+    <path id="arrow_long_up-3" data-name="arrow / long_up" d="M80.754,119.788l12.382,11.705-42.081,40.5-44.483-40.5L18.26,119.788,41.522,141.11,36.764,0H55.146l3.611,141.11Z" transform="translate(65.809 18.77)" fill="#2d2f2c"/>
+  </g>
+</svg>

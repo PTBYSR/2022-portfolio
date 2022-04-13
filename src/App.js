@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 function App() {
   return (
     <div>
-      {/* <NavBar /> */}
+      <NavBar />
       <Hero />
       <motion.button
         whileHover={{ scale: 1.1 }}
