@@ -1,12 +1,15 @@
 import React from 'react'
 import { Landing } from '../Hero/Hero.element'
+import { ThemeProvider } from "styled-components";
+
 
 function Work() {
   return (
     <>
-    <Landing>
-
-    </Landing>
+    <ThemeProvider>
+        <Landing>
+        </Landing>
+    </ThemeProvider>
     </>
   )
 }
