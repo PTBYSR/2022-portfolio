@@ -1,5 +1,9 @@
 import React from 'react'
-import { Work } from '../Hero/Hero.element'
+import {
+  WorkHeading, 
+  WorkSection, 
+  ProjectSection,
+} from '../Work/Work.element'
 import { ThemeProvider } from "styled-components";
 
 
@@ -11,9 +15,9 @@ function Work() {
   return (
     <>
     <ThemeProvider>
-      <Work>
+      <WorkSection className='fs-secondary'>
         <WorkHeading>
-
+          <h1>Work</h1>
         </WorkHeading>
         <ProjectSection>
           
@@ -24,7 +28,7 @@ function Work() {
         <ProjectSection>
 
         </ProjectSection>
-      </Work>
+      </WorkSection>
     </ThemeProvider>
     </>
   )
