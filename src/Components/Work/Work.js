@@ -1,5 +1,5 @@
 import React from 'react'
-import { Landing } from '../Hero/Hero.element'
+import { Work } from '../Hero/Hero.element'
 import { ThemeProvider } from "styled-components";
 
 
@@ -7,8 +7,9 @@ function Work() {
   return (
     <>
     <ThemeProvider>
-        <Landing>
-        </Landing>
+      <Work>
+        
+      </Work>
     </ThemeProvider>
     </>
   )
