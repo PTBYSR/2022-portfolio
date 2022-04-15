@@ -3,7 +3,9 @@ import { Work } from '../Hero/Hero.element'
 import { ThemeProvider } from "styled-components";
 
 
-const theme
+const theme = {
+  main: "30px"
+}
 
 function Work() {
   return (
