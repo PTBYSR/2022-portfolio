@@ -1,8 +1,14 @@
 import React from 'react'
 
+
+
 function ProjectSection() {
   return (
-    <div>ProjectSection</div>
+    <>
+        <ProjectSectionWrapper>
+
+        </ProjectSectionWrapper>
+    </>
   )
 }
 

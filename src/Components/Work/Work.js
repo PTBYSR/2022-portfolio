@@ -1,8 +1,8 @@
 import React from 'react'
+import ProjectSection from './ProjectSection';
 import {
   WorkHeading, 
-  WorkSection, 
-  ProjectSection,
+  WorkSection,
 } from '../Work/Work.element'
 import { ThemeProvider } from "styled-components";
 
@@ -19,15 +19,7 @@ function Work() {
         <WorkHeading>
           <h1>Work</h1>
         </WorkHeading>
-        <ProjectSection>
-          
-        </ProjectSection>
-        <ProjectSection>
-
-        </ProjectSection>
-        <ProjectSection>
-
-        </ProjectSection>
+        <ProjectSection />
       </WorkSection>
     </ThemeProvider>
     </>
