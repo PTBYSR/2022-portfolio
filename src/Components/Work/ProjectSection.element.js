@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 export const ProjectSectionWrapper = styled.div`
     flex-direction: row;
+    height: 90vh;
+    
 `;
 export const ImageWrapper = styled.div`
     width: 40%;
