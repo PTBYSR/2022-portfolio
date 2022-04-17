@@ -9,9 +9,16 @@ import {
 function ProjectSection() {
   return (
     <>
-        <ProjectSectionWrapper>
+        <ProjectSectionWrapper className='flex'>
             <ImageWrapper></ImageWrapper>
-            <TextWrapper></TextWrapper>
+            <TextWrapper>
+                <ProjectDescriptoin>
+
+                </ProjectDescriptoin>
+                <SkillsDescription>
+                    
+                </SkillsDescription>
+            </TextWrapper>
         </ProjectSectionWrapper>
     </>
   )
