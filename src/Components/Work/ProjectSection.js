@@ -2,7 +2,9 @@ import React from 'react';
 import { 
     ProjectSectionWrapper,
     ImageWrapper,
-    TextWrapper
+    TextWrapper,
+    ProjectDescription,
+    SkillsDescription
  } from './ProjectSection.element';
 
 
@@ -12,9 +14,9 @@ function ProjectSection() {
         <ProjectSectionWrapper className='flex container'>
             <ImageWrapper></ImageWrapper>
             <TextWrapper>
-                <ProjectDescriptoin>
+                <ProjectDescription>
 
-                </ProjectDescriptoin>
+                </ProjectDescription>
                 <SkillsDescription>
 
                 </SkillsDescription>

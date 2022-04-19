@@ -14,10 +14,10 @@ const theme = {
 function Work() {
   return (
     <>
-    <ThemeProvider>
-      <WorkSection className='fs-secondary'>
-        <WorkHeading>
-          <h1>Work</h1>
+    <ThemeProvider theme={{theme}}>
+      <WorkSection className='container'>
+        <WorkHeading className='flex fs-heading ff-mont fw-semibold'>
+          <h1>/ WORK</h1>
         </WorkHeading>
         <ProjectSection />
       </WorkSection>
