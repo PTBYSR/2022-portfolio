@@ -123,12 +123,7 @@ them using inline css */
   outline: 1px solid red;
 }
 
-.container-light {
-  padding-inline: 2em; /* same as padding: 0 2em */
-  margin-inline: auto;
-  max-width: 80rem;
-}
-.container-dark {
+.container {
   padding-inline: 2em; /* same as padding: 0 2em */
   margin-inline: auto;
   max-width: 80rem;

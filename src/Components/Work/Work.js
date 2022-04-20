@@ -3,6 +3,7 @@ import ProjectSection from './ProjectSection';
 import {
   WorkHeading, 
   WorkSection,
+  BgWrapper
 } from '../Work/Work.element'
 import { ThemeProvider } from "styled-components";
 
@@ -15,12 +16,16 @@ function Work() {
   return (
     <>
     <ThemeProvider theme={{theme}}>
-      <WorkSection className='container-dark bg-dark'>
-        <WorkHeading className='flex fs-heading ff-mont fw-semibold fc-light'>
-          <h1>/ WORK</h1>
-        </WorkHeading>
-        <ProjectSection />
-      </WorkSection>
+      <BgWrapper className='bg-dark'>
+        <WorkSection className='container bg-dark'>
+          <WorkHeading className='flex fs-heading ff-mont fw-semibold fc-light'>
+            <h1>/ WORK</h1>
+          </WorkHeading>
+        </WorkSection>
+          <ProjectSection className='container bg-dark'/>
+          <ProjectSection className='container bg-dark'/>
+          <ProjectSection className='container bg-dark'/>
+      </BgWrapper>
     </ThemeProvider>
     </>
   )

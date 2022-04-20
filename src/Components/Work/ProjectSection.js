@@ -1,27 +1,26 @@
 import React from 'react';
+import { ThemeProvider } from 'styled-components';
 import { 
     ProjectSectionWrapper,
     ImageWrapper,
-    TextWrapper,
-    ProjectDescription,
-    SkillsDescription
  } from './ProjectSection.element';
+ import TextSection from './TextSection';
+
+
+ const theme ={
+    main: "30px",
+ }
 
 
 function ProjectSection() {
   return (
     <>
-        <ProjectSectionWrapper className='flex container'>
-            <ImageWrapper></ImageWrapper>
-            <TextWrapper>
-                <ProjectDescription>
-
-                </ProjectDescription>
-                <SkillsDescription>
-
-                </SkillsDescription>
-            </TextWrapper>
-        </ProjectSectionWrapper>
+        <ThemeProvider theme={theme}>
+          <ProjectSectionWrapper className='flex container'>
+              <ImageWrapper className='bg-light'></ImageWrapper>
+              <TextSection />
+          </ProjectSectionWrapper>
+        </ThemeProvider>
     </>
   )
 }

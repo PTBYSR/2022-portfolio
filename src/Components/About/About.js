@@ -1,8 +1,13 @@
 import React from 'react'
+import { 
+  AboutSection,
+ } from './About.element'
 
 function About() {
   return (
-    <div>About</div>
+    <AboutSection className='bg-dark'>
+      
+    </AboutSection>
   )
 }
 
