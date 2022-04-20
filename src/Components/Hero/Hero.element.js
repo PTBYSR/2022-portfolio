@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { helpers } from "../StyleHelpers";
 
 export const Landing = styled.section`
   width: 100%;
