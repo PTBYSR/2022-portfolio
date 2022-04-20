@@ -11,6 +11,7 @@ function TextSection() {
   return (
     <TextSectionWrapper >
       <Text className='fc-light'>
+        <TextMain className='fs-heading'>Webscraped blog</TextMain>
         <TextMain>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolor impedit porro possimus. Possimus amet iste atque blanditiis sunt! Neque.</TextMain>
         <br></br>     
         <br></br>     

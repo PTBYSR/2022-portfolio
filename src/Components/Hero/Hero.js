@@ -21,7 +21,7 @@ function Hero() {
       <ThemeProvider theme={theme}>
         <Landing className="bg-light flex container">
           <LandingCardOne className="">
-            <h1 className="ff-mont fw-semibold fs-heading">DESIGNER,</h1>
+            <h1 className="ff-mont fw-semibold fs-secondary">DESIGNER,</h1>
             <h1 className="ff-mont fw-semibold fs-heading">DEVELOPER</h1>
             <p className="ff-cabin">
               I am a{" "}

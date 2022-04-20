@@ -2,6 +2,7 @@ import NavBar from './Components/Navbar/Navbar';
 import Hero from './Components/Hero/Hero';
 import Work from './Components/Work/Work'
 import About from './Components/About/About'
+import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer'
 import './App.css';
 import { motion } from "framer-motion";
@@ -21,7 +22,8 @@ function App() {
       </motion.button>
       <Work />
       <About />
-      {/* FOOTER */}
+      <Contact />
+      <Footer />
     </div>
   );
 }
