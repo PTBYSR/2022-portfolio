@@ -258,3 +258,10 @@ them using inline css */
     padding: var(--underline-gap, 1rem) 0;
     border-bottom: .2rem solid var(--clr-accent-pri);
 } */
+
+.link-icon::before {
+  position: absolute;
+  content:url('./assets/linkicon.svg');
+  width: 10px;
+  left: -1px;
+}

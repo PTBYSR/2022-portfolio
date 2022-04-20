@@ -29,3 +29,6 @@ export const Email = styled.div`
     height: 250px;
     flex-direction: column;
 `;
+export const EmailWrapper = styled.div`
+    position: relative;
+`;
