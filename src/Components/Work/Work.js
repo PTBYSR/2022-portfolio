@@ -15,8 +15,8 @@ function Work() {
   return (
     <>
     <ThemeProvider theme={{theme}}>
-      <WorkSection className='container'>
-        <WorkHeading className='flex fs-heading ff-mont fw-semibold'>
+      <WorkSection className='container-dark bg-dark'>
+        <WorkHeading className='flex fs-heading ff-mont fw-semibold fc-light'>
           <h1>/ WORK</h1>
         </WorkHeading>
         <ProjectSection />
