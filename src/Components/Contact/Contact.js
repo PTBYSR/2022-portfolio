@@ -1,5 +1,4 @@
 import React from 'react';
-// import { ReactComponent as Linkicon } from '../assets/linkicon.svg'
 import {  
     ContactSection,
     SayHi,

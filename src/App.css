@@ -267,9 +267,9 @@ them using inline css */
 .link-icon {
   display: inline-block;
 }
-.link-icon::before {
+/* .link-icon::before {
   position: absolute;
   content:url('./linkicon.svg');
   width: 10px;
   left: -27px;
-}
+} */
