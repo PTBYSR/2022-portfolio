@@ -2,7 +2,7 @@ import React from "react";
 import { ThemeProvider } from "styled-components";
 import NavBar from "../Navbar/Navbar";
 // import { Nav } from '../Navbar/Navbar.elements'
-import { ReactComponent as ArrowDown } from "./arrow-down.svg";
+// import { ReactComponent as ArrowDown } from "./arrow-down.svg";
 import {
   Landing,
   LandingCardOne,
@@ -33,7 +33,7 @@ function Hero() {
               <br />
               interfaces with front-end technologies.
             </p>
-            <ArrowDown />
+            {/* <ArrowDown /> */}
           </LandingCardOne>
           <LandingCardTwo />
           <LandingCardThree className="flex">

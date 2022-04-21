@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ContactSection = styled.section`
+export const ContactMeSection = styled.section`
     width: 50%;
     height: 500px;
     flex-direction: column;
@@ -32,14 +32,5 @@ export const EmailWrapper = styled.div`
     position: relative;
     flex-direction: column;
     height: 100px;
-    gap:0;
-`;
-export const EmailLink = styled.p`
-    position: relative;
-    &::before {
-        content: url(./linkicon.svg);
-        position: absolute;
-        width: 10px;
-        left: -27px;
-    }
+    gap: 0;
 `;
