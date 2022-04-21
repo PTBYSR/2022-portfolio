@@ -267,9 +267,19 @@ them using inline css */
 .link-icon {
   display: inline-block;
 }
-/* .link-icon::before {
+.link-icon::before {
   position: absolute;
-  content:url('./linkicon.svg');
+  content:url('./assets/linkicon.svg');
   width: 10px;
   left: -27px;
-} */
+}
+.link-icon2 {
+  display: inline-block;
+  cursor: pointer;
+}
+.link-icon2::before {
+  position: absolute;
+  content:url('./assets/copyicon.svg');
+  width: 10px;
+  left: -27px;
+}
