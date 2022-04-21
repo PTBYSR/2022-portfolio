@@ -29,6 +29,7 @@
   /* COMPONENTS */
   --border-small: ;
   --border-big: ;
+  --link-icon: var('./assets/linkicon.svg')
 }
 
 /* RESET CSS */
@@ -62,6 +63,10 @@ h5,
 h6,
 p {
   font-weight: 400; /* remove default */
+}
+
+a {
+  text-decoration: none;
 }
 
 /* set up the body */
@@ -259,9 +264,12 @@ them using inline css */
     border-bottom: .2rem solid var(--clr-accent-pri);
 } */
 
+.link-icon {
+  display: inline-block;
+}
 .link-icon::before {
   position: absolute;
-  content:url('./assets/linkicon.svg');
+  content:url('./linkicon.svg');
   width: 10px;
-  left: -1px;
+  left: -27px;
 }

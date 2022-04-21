@@ -1,15 +1,43 @@
 import React from 'react'
 import { Nav } from './Navbar.elements'
-
+import { motion } from 'framer-motion';
 
 function NavBar() {
   return (
     <Nav className='flex bg-light'>
       <ul className="primary-navigation underline-indicators flex">
-          <li className="active"><a className="fs-secondary text-dark" href="#">Home</a></li>
-          <li><a className="fs-secondary text-dark" href="#">Work</a></li>
-          <li><a className="fs-secondary text-dark" href="#">About</a></li>
-          <li><a className="fs-secondary text-dark" href="#">Resume</a></li>
+          <li>
+            <motion.a 
+            whileHover={{ color: '#0094ce'}}
+            onClick={() => null}
+            className="fs-secondary text-dark" href="#"
+            >Home
+            </motion.a>
+          </li>
+          <li>
+            <motion.a 
+            whileHover={{ color: '#0094ce'}}
+            onClick={() => null}
+            className="fs-secondary text-dark" href="#"
+            >Work
+            </motion.a>
+          </li>
+          <li>
+            <motion.a 
+            whileHover={{ color: '#0094ce'}}
+            onClick={() => null}
+            className="fs-secondary text-dark" href="#"
+            >Contact
+            </motion.a>
+          </li>
+          <li>
+            <motion.a 
+            whileHover={{ color: '#0094ce'}}
+            onClick={() => null}
+            className="fs-secondary text-dark" href="#"
+            >About me
+            </motion.a>
+          </li>
       </ul>
     </Nav>
   )

@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const ProjectSectionWrapper = styled.div`
     height: 500px;
     flex-direction: row;
+    margin-top: ${(props) => props.theme.mt};
     padding-top: ${(props) => props.theme.main};
 `;
 

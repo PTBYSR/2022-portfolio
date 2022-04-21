@@ -12,12 +12,12 @@ import { BgWrapper } from '../Globalstyles'
 import { ThemeProvider } from 'styled-components'
 
 const theme = {
-  main: "30px"
+  main: "100px",
 }
 
 function About() {
   return (
-    <ThemeProvider theme={{theme}}>
+    <ThemeProvider theme={theme}>
       <BgWrapper>
         <AboutSection className='flex bg-dark container'>
           <ImageSection className='bg-dark flex'>

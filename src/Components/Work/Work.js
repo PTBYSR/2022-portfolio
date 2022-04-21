@@ -15,7 +15,7 @@ const theme = {
 function Work() {
   return (
     <>
-    <ThemeProvider theme={{theme}}>
+    <ThemeProvider theme={theme}>
       <BgWrapper className='bg-dark'>
         <WorkSection className='container bg-dark'>
           <WorkHeading className='flex fs-heading ff-mont fw-semibold fc-light'>

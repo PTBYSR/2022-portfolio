@@ -3,6 +3,7 @@ import styled from  'styled-components';
 export const AboutSection = styled.section`
     width: 100%;
     height: 600px;
+    margin-top: ${(props) => props.theme.mt};
     padding-top: ${(props) => props.theme.main};
     justify-content: space-between;
     border-top: 2px solid var(--clr-light);
@@ -32,7 +33,7 @@ export const AboutMain = styled.div`
 `;
 export const AboutSecondary = styled.div`
     position: absolute;
-    bottom: 40px;
+    bottom: -6px;
     left: 400px;
     width: 30%;
 `;
