@@ -14,13 +14,6 @@ function App() {
     <div>
       {/* <NavBar /> */}
       <Hero />
-      <motion.button
-        whileHover={{ scale: 1.1 }}
-        onClick={() => null}
-        >
-        press me
-        no risk no magic
-      </motion.button>
       <Work />
       <About />
       {/* <ContactMe /> */}
